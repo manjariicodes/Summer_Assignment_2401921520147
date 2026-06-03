@@ -1,0 +1,15 @@
+class Solution {
+    public void moveZeroes(int[] nums) {
+        int k=0;
+        for(int i=0; i<nums.length;i++)
+        {
+            if(nums[i]!=0)
+            {
+                int tmp= nums[k];
+                nums[k]=nums[i];// this is changing the numbers...not swapping
+                nums[i]=tmp;
+                k++;
+            }
+        }
+    }
+}
