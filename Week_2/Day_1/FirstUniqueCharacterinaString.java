@@ -1,3 +1,4 @@
+package Week_2.Day_1;
 class Solution {
     public int firstUniqChar(String s) {
         Map <String, Integer> hm= new HashMap<>();

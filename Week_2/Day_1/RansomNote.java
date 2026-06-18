@@ -1,3 +1,4 @@
+package Week_2.Day_1;
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
 
